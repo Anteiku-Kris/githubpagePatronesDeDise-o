@@ -1,26 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Patrones de diseño. Gang of Four</title>
-
-    <meta
-      name="description"
-      content="Infografía creada para ilustrar los patrones de diseño, tomando principalmente los patrones de diseño de GoF (Gang of Four)"
-    />
-
-    <link rel="icon" href="/images/portada.jpg" />
-    <link rel="stylesheet" href="../style.css">
+    <meta name="description" content="Infografía creada para ilustrar los patrones de diseño, tomando principalmente los patrones de diseño de GoF (Gang of Four)" />
+    <link rel="icon" href="./images/Portada.jpg" />
+    <link rel="stylesheet" href="./styles.css">
   </head>
 
   <body>
     <header>
-      <h1>Patrones de diseño GoF(Gang of Four)</h1>
+      <h1>Patrones de diseño GoF (Gang of Four)</h1>
       <nav>
         <a class="link" href="#definition">Definición</a>
         <a class="link" href="#clasification">Clasificación de Patrones</a>
-        <a class="link" href="#properties">Caractertísticas de los patrones</a>
+        <a class="link" href="#properties">Características de los patrones</a>
         <a class="link" href="#essentials">Elementos esenciales</a>
         <a class="link" href="#goodAbad">Pros y Contras</a>
         <a class="link" href="#bibliography">Bibliografía</a>
@@ -30,19 +25,9 @@
     <main>
       <h2 id="definition">Definición</h2>
       <section>
-        <p>
-          La Banda de los Cuatro Patrones de Diseño es un conjunto de soluciones
-          a problemas comunes que encontramos en el diseño y desarrollo de
-          software.
-        </p>
-        <p>
-          Dieron una definición precisa de lo que es un patrón de diseño y cómo
-          debe ser usado:
-          <mark
-            >“descripciones de objetos que se comunican y clases que son
-            personalizadas para resolver un problema de diseño general en un
-            contexto particular”</mark
-          >
+        <p>La Banda de los Cuatro Patrones de Diseño es un conjunto de soluciones a problemas comunes que encontramos en el diseño y desarrollo de software.</p>
+        <p>Dieron una definición precisa de lo que es un patrón de diseño y cómo debe ser usado:
+          <mark>“descripciones de objetos que se comunican y clases que son personalizadas para resolver un problema de diseño general en un contexto particular”</mark>
         </p>
       </section>
 
@@ -50,16 +35,13 @@
       <section>
         <details>
           <summary>Patrones Creacionales</summary>
-          <p>
-            Proporcionan mecanismos de creación de objetos que incrementan la
-            flexibilidad y la reutilización de código existente.
-          </p>
+          <p>Proporcionan mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización de código existente.</p>
           <h3>Entre sus diferentes tipos se encuentran:</h3>
           <ul>
             <li>Método de fábrica</li>
             <li>Patrón abstracto de fábrica</li>
             <li>Patrón Singleton</li>
-            <li>Patrón propotipo</li>
+            <li>Patrón prototipo</li>
             <li>Patrón Constructor</li>
             <li>Patrón grupo de objetos</li>
           </ul>
@@ -67,11 +49,7 @@
 
         <details>
           <summary>Patrones estructurales</summary>
-          <p>
-            Son patrones que nos permiten explicar cómo ensamblar objetos y
-            clases en estructuras más grandes a la vez que mantienen la
-            flexibilidad y eficiencia de la estructura.
-          </p>
+          <p>Son patrones que nos permiten explicar cómo ensamblar objetos y clases en estructuras más grandes a la vez que mantienen la flexibilidad y eficiencia de la estructura.</p>
           <h3>Tipos de diseño estructural</h3>
           <ul>
             <li>Patrón adaptador</li>
@@ -105,16 +83,11 @@
       <section>
         <dialog id="dialog">
           <h1>Patrones Creacionales</h1>
-          <img
-            src="./images/Caracteristicas_patrones_Creacionales.png"
-            alt="Diagrama sencillo explicando las características principales de cada patrones creacionales"
-          />
-          <h1>Patrones Estructurales</h2>
-          <img src="./images/Caracteristicas_patrones_estructurales.png" alt="Diagrama de las principales características de los patrones estructurales">
-
+          <img src="./images/Caracteristicas_patrones_Creacionales.png" alt="Diagrama sencillo explicando las características principales de cada patrones creacionales" />
+          <h1>Patrones Estructurales</h1>
+          <img src="./images/Caracteristicas_patrones_Estructurales.png" alt="Diagrama de las principales características de los patrones estructurales">
           <h1>Patrones de Comportamiento</h1>
-          <img src="../images/Caracteristicas_patrones_de_Comportamiento.png" alt="Diagrama de las principales características de los patrones de comportamiento">
-
+          <img src="./images/Caracteristicas_patrones_de_Comportamiento.png" alt="Diagrama de las principales características de los patrones de comportamiento">
           <button id="hide">Cerrar Características</button>
         </dialog>
 
@@ -150,11 +123,11 @@
             </tr>
             <tr>
               <td>Estandarización</td>
-              <td>Sobrecarga de Documentacion</td>
+              <td>Sobrecarga de Documentación</td>
             </tr>
             <tr>
               <td>Reducción de errores</td>
-              <td>Sobrecarga de Documentacion</td>
+              <td>Sobrecarga de Documentación</td>
             </tr>
           </tbody>
         </table>
@@ -167,21 +140,16 @@
         </p>
         <ol>
           <li>
-            <strong>Nombre.</strong>: identifica al patrón, permite describir,
-            en una o dos palabras, un problema de diseño junto con sus
-            soluciones y consecuencias.
+            <strong>Nombre.</strong> Identifica al patrón, permite describir, en una o dos palabras, un problema de diseño junto con sus soluciones y consecuencias.
           </li>
           <li>
-            <strong>Problema.</strong> Describe cuando aplicar el patrón,
-            explica el problema y su contexto
+            <strong>Problema.</strong> Describe cuando aplicar el patrón, explica el problema y su contexto
           </li>
           <li>
-            <strong>Solución.</strong> Describe los elementos que constituyen el
-            diseño, sus relaciones, responsabilidades y colaboraciones.
+            <strong>Solución.</strong> Describe los elementos que constituyen el diseño, sus relaciones, responsabilidades y colaboraciones.
           </li>
           <li>
-            <strong>Consecuencias.</strong> Son los resultados, así como
-            ventajas e inconvenientes de aplicar el patrón
+            <strong>Consecuencias.</strong> Son los resultados, así como ventajas e inconvenientes de aplicar el patrón
           </li>
         </ol>
       </section>
@@ -191,31 +159,19 @@
         <strong>
           <ol>
             <li>
-              <a
-                href="https://www.linkedin.com/pulse/patrones-de-diseño-descubriendo-los-estructurales-carlos-batista-tgf4e/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://www.linkedin.com/pulse/patrones-de-diseño-descubriendo-los-estructurales-carlos-batista-tgf4e/" target="_blank" rel="noreferrer">
                 Patrones de diseños estructurales. Carlos Batista
               </a>
             </li>
             <li>
-              <a
-                href="https://medium.com/somos-codeicus/patrones-de-diseño-parte-1-ba246665224"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Patrones de diseño. Somos Codeicus</a
-              >
+              <a href="https://medium.com/somos-codeicus/patrones-de-diseño-parte-1-ba246665224" target="_blank" rel="noreferrer">
+                Patrones de diseño. Somos Codeicus
+              </a>
             </li>
             <li>
-              <a
-                href="https://www.itmastersmag.com/noticias-analisis/patrones-de-diseno-descripciones-estandarizadas-para-problemas-repetitivos/"
-                target="_blank"
-                rel="noreferrer"
-                >Patrones de diseño, descripciones estandarizadas para problemas
-                repetitivos</a
-              >
+              <a href="https://www.itmastersmag.com/noticias-analisis/patrones-de-diseno-descripciones-estandarizadas-para-problemas-repetitivos/" target="_blank" rel="noreferrer">
+                Patrones de diseño, descripciones estandarizadas para problemas repetitivos
+              </a>
             </li>
           </ol>
         </strong>
@@ -225,32 +181,14 @@
     <footer>
       <h3>Desarrollado por:</h3>
       <small>
-        <a
-          href="https://github.com/manuelalrod"
-          target="_blank"
-          rel="noreferrer"
-          >Manuel Almengor</a
-        >
-        <a
-          href="https://github.com/Anteiku-Kris"
-          target="_blank"
-          rel="noreferrer"
-          >Kristopher Castillo</a
-        >
-        <a href="https://github.com/Xjoel09" target="_blank" rel="noreferrer"
-          >Robin Justavino</a
-        >
-        <a
-          href="https://www.instagram.com/cesarodriguez16/"
-          target="_blank"
-          rel="noreferrer"
-          >Cesar Rodriguez</a
-        >
-        <a href="https://github.com/Thana1329" target="_blank" rel="noreferrer"
-          >Aythana Ríos</a
-        >
+        <a href="https://github.com/manuelalrod" target="_blank" rel="noreferrer">Manuel Almengor</a>
+        <a href="https://github.com/Anteiku-Kris" target="_blank" rel="noreferrer">Kristopher Castillo</a>
+        <a href="https://github.com/Xjoel09" target="_blank" rel="noreferrer">Robin Justavino</a>
+        <a href="https://www.instagram.com/cesarodriguez16/" target="_blank" rel="noreferrer">Cesar Rodriguez</a>
+        <a href="https://github.com/Thana1329" target="_blank" rel="noreferrer">Aythana Ríos</a>
       </small>
     </footer>
   </body>
 </html>
+
 
