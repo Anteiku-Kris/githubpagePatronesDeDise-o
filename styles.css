@@ -1,0 +1,173 @@
+/* Paleta de colores */
+:root {
+    --color-primary: #5C85E6;
+    --color-secondary: #3F4B69;
+    --color-tertiary: #7898E3;
+    --color-quaternary: #1B2D57;
+    --color-light: #B7C6E8;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-light);
+    color: var(--color-secondary);
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    margin-top: 1em;
+  }
+  
+  nav .link {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+  }
+  
+  nav .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos principales */
+  main {
+    padding: 2em;
+  }
+  
+  main h2 {
+    color: var(--color-quaternary);
+    border-bottom: 2px solid var(--color-primary);
+    padding-bottom: 0.5em;
+  }
+  
+  /* Estilos de las secciones */
+  section {
+    margin-bottom: 2em;
+  }
+  
+  details {
+    background-color: var(--color-tertiary);
+    padding: 1em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+  }
+  
+  details summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  details[open] summary {
+    color: var(--color-quaternary);
+  }
+  
+  details p, details h3, details ul {
+    margin-left: 1em;
+  }
+  
+  /* Estilos del diálogo */
+  dialog {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    background-color: white;
+    max-width: 500px;
+    margin: 2em auto;
+  }
+  
+  dialog img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    align-content: center;
+  }
+  
+
+  button:hover {
+    background-color: var(--color-quaternary);
+  }
+  
+  #show {
+    display: block;
+    margin: 2em 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: var(--color-primary);
+    color: white;
+  }
+  
+  td, th {
+    border: 1px solid var(--color-secondary);
+    padding: 0.5em;
+    text-align: left;
+  }
+  
+  /* Estilos de la bibliografía */
+  ol {
+    padding-left: 1.5em;
+  }
+  
+  ol li {
+    margin-bottom: 0.5em;
+  }
+  
+  ol li a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+  
+  ol li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: var(--color-primary);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  footer h3 {
+    margin-top: 0;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5em;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
